@@ -1,4 +1,4 @@
-package protegido;
+package animal;
 
 
 public class Animal {
