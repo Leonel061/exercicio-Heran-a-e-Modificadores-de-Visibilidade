@@ -1,5 +1,5 @@
 
-package protegido;
+package animal;
 
 
 public class Protegido {
