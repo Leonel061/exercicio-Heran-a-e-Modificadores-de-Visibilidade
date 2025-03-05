@@ -1,0 +1,17 @@
+package pessoa;
+
+
+public class Pessoa {
+
+    
+    public static void main(String[] args) {
+        classePessoa objclassePessoa1 = new classePessoa("Vitor", 15, 1.72, 55);
+        classePessoa objPessoa2 = new classePessoa("Vinícius", 26, 1.68, 61);
+        objclassePessoa1.exibir();
+        objclassePessoa1.getAltura();
+        System.out.println("Altura"+ objclassePessoa1.getAltura());
+       
+               
+    }
+    
+}
