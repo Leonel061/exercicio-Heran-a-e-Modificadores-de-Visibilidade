@@ -1,0 +1,22 @@
+
+package protegido;
+
+
+public class Protegido {
+
+    
+    public static void main(String[] args) {
+        //Classe pai
+        Animal objAnimal1 = new Animal();
+        
+        
+        //Classe filha
+       Cachorro objCachorro1 = new Cachorro();
+       objCachorro1.exibir();
+       objCachorro1.especie = "Felino";
+       objCachorro1.exibir();
+       objCachorro1.latir();
+       objCachorro1.emitirSom();  
+    }
+    
+}
